@@ -1,4 +1,4 @@
-# Welcome to My_maths_module repository\
+# Welcome to My_maths_module repository.
   Welcome curious minds, what bringest thou to this masterpiece of mine, unbeknowest to thee, thine eyes hath behold a treasure greater than gold.
   > Thread carefully | 
   > Remove thy sandals | 
