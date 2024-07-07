@@ -5,7 +5,10 @@
   > For this is **_Cody Grounds_**
 ## So what is this for? On a more serious note.
 This is a repository for the several Mathematical functions i would create.
+
 This Repo: Created on the 7th of July 2024
+
 Likely to become a module to be hosted on pypi
-more updates coming, Stay tuned and follow me ~😉~
+
+more updates coming, Stay tuned and follow me 😉
 
