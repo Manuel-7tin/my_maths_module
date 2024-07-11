@@ -36,3 +36,36 @@ for equation in equations:
         print(f"Root found: x = {root:.7f}")
     else:
         print("No root found.")
+
+# STATIC STATIC STATIC
+def f(x):
+    return x**3 - 2*x - 5
+
+def f_prime(x):
+    return 3*x**2 - 2
+
+def newton_raphson(x0, tolerance=1e-7, max_iterations=1000):
+    x = x0
+    for i in range(max_iterations):
+        fx = f(x)
+        fpx = f_prime(x)
+        if abs(fpx) < tolerance:
+            print("Derivative too small. Stopping iteration.")
+            return None
+        x_new = x - fx / fpx
+        if abs(x_new - x) < tolerance:
+            return x_new
+        x = x_new
+    print("Exceeded maximum iterations. No solution found.")
+    return None
+
+# Initial guess
+x0 = 2.0
+
+# Find the root
+root = newton_raphson(x0)
+
+if root is not None:
+    print(f"Root found: x = {root:.7f}")
+else:
+    print("No root found.")
